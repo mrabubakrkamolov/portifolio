@@ -1,0 +1,716 @@
+body {
+    margin: 0;
+}
+
+/*Main section*/
+
+.banner{
+    background: url(../images/banner.png) no-repeat top center;
+    background-position: center;
+    background-size: cover;
+    height: 655px;
+}
+  
+.main-section {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 6.25rem 1.875rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section__image {
+    text-align: right;
+}
+
+.main-section__image img{
+    width: 400px;
+}
+
+
+.main-section__welcome {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+    letter-spacing: 1px;
+    color: #797979;
+}
+.main-section__intro {
+    
+    margin-top: 1.25rem;
+    font-size: 3.75rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    color: #05364E;
+}
+
+.main-section__social-networks a {
+    color: #8FA1AA;
+    font-size: 1.25rem;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.main-section__social-networks a:hover i {
+    color: #05364d;
+}
+
+.main-section__position {
+    color: #05364E;
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 300;
+}
+.main-section__button {
+    margin-top: 1.875rem;
+    text-decoration: none;
+    color: white;
+   
+
+} 
+/*statistics section*/
+.statistics {
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding-top: 0.625rem;
+}
+
+.statistics_item {
+
+    background-color: #F8FAFF;
+    text-align: center;
+    padding: 0.32rem 0.625rem;
+    margin-right: 1.25rem;
+    cursor: pointer;
+    width: 150px;
+
+}
+
+.statistics_number {
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    font-size: 1.6875rem;
+    margin-bottom: 0.3125rem;
+    color: #05364d;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.statistics_title {
+    font-size: 1rem;
+    color: #797979;
+    font-weight: 300;
+}
+
+/*about me section*/
+.about_me {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 6.25rem 0;
+    display: flex;
+    align-items: center;
+
+}
+.about_me > div {
+    flex: 1;
+}
+.about_me-image img {
+    width: 100%;
+}
+.about_me-description {
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: #797979;
+    line-height: 1.6875rem; 
+}
+.about_me-button {
+    margin-top: 2.5rem;
+}
+
+.about-contact-button {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-button {
+    display: none;
+    margin-top: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/*my services*/
+.services {
+    margin-top: 180px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.services_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.service_card {
+    transition: all 0.5s ease 0s;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-top: 3.125rem;
+    padding: 3.75rem 1.875rem;
+    background-color: #F8FAFF;
+    margin-right: 3%;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.service_card_title {
+    color: #05364d;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+
+}
+
+.service_card_description {
+    line-height: 1.6875rem;
+    font-weight: 300;
+    font-size: 0.875rem;
+    color: #888;
+
+}
+
+.service_card_link{
+    font-size: 0.8125rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+    text-decoration: none;
+}
+
+.service_card:hover {
+    background-color: #5f30ff;
+}
+.service_card:hover .service_card_title, 
+.service_card:hover .service_card_description, 
+.service_card:hover .service_card_link {
+    color: white;
+}
+.service_card img{
+    width: 80px;
+    height: 80px;
+}
+
+/*my clients*/
+
+.my_clients {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 6.25rem 0;
+
+}
+.my_clients > div {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.client_image img {
+    width: 75%;
+    filter: contrast(1.1);
+}
+
+.client_info {
+    padding-top: 1.875rem ;
+    padding-left: 3.125rem;
+}
+
+.client_name {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.client_position {
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: #5b6d75;
+}
+
+.client_review {
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 27px;
+    color: #888;
+}
+.client_rate {
+    color: #FFD805;
+}
+
+.client_rate .disabled {
+    color: #AEB9BE;
+}
+
+/* my portfolio */
+
+.my_portfolio {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 120px ;
+
+}
+
+.portfolio_search {  
+    
+    color: #888;
+    list-style: none;
+    margin-top: 3.125rem;
+
+}
+
+.portfolio_search li {
+    
+    display: inline-block;
+    padding-left: 0;
+    margin-right: 2.5rem;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.portfolio_search li:hover {
+    transition: all 0.4s ease-out 0s;
+
+    color: #efb6df;
+}
+
+.portfolio_search li.active {
+    color: #efb6df ;
+}
+
+.portfolio_items {
+    
+    box-sizing: border-box;
+    position: relative;
+}
+
+.portfolio_item {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+}
+
+
+.p2 {
+    width: 52%;
+    left: 55%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.p3 {
+    width: 25%;
+    left: 55%;
+    position: absolute;
+    top: 300px;
+    right: 0;
+
+}
+.p4 {
+    left: 82%;
+    width: 25%;
+    position: absolute;
+    top: 300px;
+    right: 0;
+
+
+}
+
+.p5 {
+    width: 53%;
+    display:block;
+    position: absolute;
+}
+.p6 {
+    width: 52%;
+    top: 575px;
+    left: 55%;
+    right: 0;
+    position: absolute;
+
+
+}
+
+.portfolio_item img {
+    width: 100%;
+    filter: hue-rotate(180deg);
+
+}
+
+
+.portfolio_overlay {
+    transition: all 0.4s ease 0s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    z-index: 1;
+
+}
+
+.portfolio_info {
+    transition: all 0.4s ease 0s;
+    opacity: 0;
+    position: absolute;
+    bottom: 2.75rem;
+    left: 5rem;
+    color: white;
+    visibility: hidden;
+    z-index: 1;
+
+
+}
+
+.portfolio_info a {
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio_item:hover .portfolio_overlay {
+    background: rgba(102, 91, 255, 0.9);
+    visibility: visible;
+    top: 1.875rem;
+    left: 1.5625rem;
+    filter: blur(5px);
+}
+
+.portfolio_item:hover .portfolio_info {
+    visibility: visible;
+    bottom: 1.5625rem;
+    left: 3.75rem;
+    opacity: 1;
+}
+
+/*My blog*/
+
+.my_blog {
+    margin-top: 200px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding-top: 3.125rem;
+}
+
+.blog_items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.125rem;
+}
+
+.blog_item {
+    overflow: hidden;
+    margin-right: 3%;
+    box-sizing: border-box;
+}
+
+.blog_item:hover {
+    box-shadow: 0px 10px 20px rgba(4, 45, 65, 0.1);
+}
+
+.blog_item:hover .blog_image img {
+    transform: scale(1.1);
+}
+
+.blog_image {
+    overflow: hidden;
+}
+
+.blog_item:hover .blog_info {
+    background-color: white;
+}
+
+.blog_image img {
+    width: 100% ;
+    vertical-align: middle;
+    transition: all 0.4s ease 0s;
+}
+
+.blog_info {
+    background-color: #F8FAFF;
+    padding: 1.875rem;
+    color: #888;
+
+}
+
+.blog_info_main span{
+    font-size: 0.9375rem;
+    margin-right: 1.875rem;
+    cursor: pointer;
+    font-weight: lighter;
+
+}
+
+.blog_info i {
+    margin-right: 0.3125rem;
+    cursor: pointer;
+}
+
+.blog_title {
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.9375rem;
+    color: #05364d;
+    font-weight: 700;
+
+}
+
+.blog_description {
+    line-height: 1.6875rem;
+    font-size: 0.9375rem;
+    font-weight: lighter;
+}
+
+.blog_link {
+    cursor: pointer;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+}
+
+.blog_link:hover {
+    color: #ed239f;
+}
+
+/*my partners*/
+
+.my_partners {
+    padding-top: 4.375rem;
+
+}
+
+.partner {
+    position: relative;
+    display: inline-block;
+    padding: 0 1.875rem;
+}
+
+.pa1 {
+    position: relative;
+    top: 4.25rem;
+    width: 170px;
+    height: 180px;
+}
+.pa2 {
+    position: relative;
+    top: 3.75rem;
+    width: 170px;
+    height: 170px;
+}
+.pa3 {
+    width: 150px;
+    height: 40%;
+}
+
+            /*FOR TABLETS*/
+
+@media only screen and (max-width: 991px) {
+
+    /*Main*/
+    
+    .main-section__image {
+        display: none;
+    }
+
+    
+    .main-section > div {
+        width: 100%;
+    }
+
+    /*statistics*/
+
+    .statistics{
+        padding-top: 1rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+    /*about me*/
+
+    .contact-button {
+        display: inline-block;
+    }
+
+    .about_me {
+        padding: 1.5rem 0 ;
+    }
+    
+    .about_me > div {
+        width: 100%;
+    }
+    
+
+    /*services*/
+
+    .services{
+        padding: 1.5rem 0;
+    }
+
+    .service_card {
+        justify-content: center;
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    /*clients*/
+
+    .my_clients > div {
+        width: 100%;
+        float: none;
+    }
+
+    .my_clients{
+        padding: 1.5rem 0;
+    }
+
+    .client_image img {
+        display: none;
+    }
+
+    /*portfolio*/
+    .p1 {
+        width: 53%;
+    }
+
+    .p3, .p4 {
+        top: 210px;
+    }
+    
+    
+    
+    .p6 {
+        top: 405px;
+    }
+    
+    /*blog*/
+
+    .my_blog {
+        justify-content: center;
+
+        padding: 1.5rem 0;
+    }
+
+    .blog_item {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    /*partners*/
+
+    .my_partners{
+        padding: 1.5rem 0;
+    }
+
+    .partner {
+        display: none;
+    }
+
+
+
+
+}
+
+            /*FOR MOBILE*/
+
+
+@media only screen and (max-width: 767px) {
+    /*Main*/
+    .banner {
+        background: none;
+        min-height: auto;
+    }
+
+    .main-section__button {
+        display: none;
+    }
+
+    .main-section__intro {
+        font-size: 3rem;
+    }
+
+    /*statistics*/
+
+    .statistics {
+        flex-direction: column;
+    }
+
+    .statistics_item {
+        margin-bottom: 10px;
+        width: 100%;
+        margin-right: 0;
+        box-sizing: border-box;
+    }
+
+    /*about me*/
+
+    
+    .about_me-image {
+        display: none;
+    }
+
+
+    /*services*/
+   
+    .service_card{
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .server1, .server2 {
+        display: none;
+    }
+
+    
+    /*portfolio*/
+    .my_portfolio {
+        padding: 1.5rem 0;
+    }
+
+    .portfolio_item {
+        width: 100%;
+    }
+
+    .portfolio_overlay, .portfolio_info {
+        display: none;
+    }
+    .p1 {
+        width: 50%;
+    }
+
+
+    .p1{
+        width: 100%;
+        position: static;
+    }
+
+    .p2,.p3,.p5,.p4,.p6 {
+        display: none;
+    }
+
+
+    /*blog*/
+    .blog_items {
+        flex-wrap: wrap;
+    }
+
+    .blog_item {
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    /*partners*/
+
+    .partner {
+        display: none;
+    }
+
+    
+    
+}
